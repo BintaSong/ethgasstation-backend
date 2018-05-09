@@ -65,3 +65,10 @@ In the Docker service, the Python script will dump data to JSON on Redis.
 You will need to update your settings.conf to the internal hostnames
 available for MariaDB, Redis, and geth, respectively within your
 infrastructure.
+## run
+
+1. lanch Geth, make sure you are running geth with --rpc to expose the JSON RPC interface, default port is 8545.
+```
+./geth --rpc
+```
+2. ``` python3 ethgasstation.py ```

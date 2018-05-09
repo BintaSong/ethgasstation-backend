@@ -45,7 +45,7 @@ def get_settings_filepath():
         '/etc/ethgasstation/settings.conf',
         '/etc/ethgasstation.conf',
         '/etc/default/ethgasstation.conf',
-        '/opt/ethgasstation/settings.conf'
+        '/home/jason/Desktop/ethgasstation-backend/settings.conf'
     ]
 
     # short circuit on environment variable
