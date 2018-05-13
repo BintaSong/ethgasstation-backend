@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "etherscan.py", line 27, in <module>
-    re.sub('A total of (?P<value>\d+) Pending txns found', get_number, s)
-  File "/usr/lib/python3.5/re.py", line 182, in sub
-    return _compile(pattern, flags).sub(repl, string, count)
-TypeError: expected string or bytes-like object
