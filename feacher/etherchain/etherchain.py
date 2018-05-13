@@ -30,7 +30,7 @@ if __name__ == '__main__':
     while(True):
         s = url_read( etherchain_url + str(time.time()))
         f = time.strftime("%Y-%m-%d", time.localtime())
-        print (time.time(), s)
+        #print (time.time(), s)
         log(f, str(time.time()) + ' ' + s + '\n')
         pending_tx = 0
         time.sleep(60)

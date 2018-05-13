@@ -26,7 +26,7 @@ if __name__ == '__main__':
         s = url_read('https://etherscan.io/txsPending')
         re.sub('A total of (?P<value>\d+) Pending txns found', get_number, s)
         f = time.strftime("%Y-%m-%d", time.localtime())
-        print (time.time(), pending_tx)
+        #print (time.time(), pending_tx)
         log(f, str(time.time()) + ' ' + str(pending_tx) + '\n')
         pending_tx = 0
         time.sleep(60)
